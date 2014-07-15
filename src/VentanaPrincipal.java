@@ -28,7 +28,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         encabezados[0] = "Nombre de proceso";
         encabezados[1] = "Duración de proceso";
         encabezados[2] = "Tipo de proceso";
-        setSize(1000, 530);
+        setSize(1000, 550);
         jTable1.setModel(new DefaultTableModel(new String[0][0], encabezados));
     }
 
@@ -356,9 +356,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         procesosOrdenados = pSJF.ordenarProcesosPorDuracion(procesosTodos);
         pSJF.ubicarEnDiagramaDeGantt(jPanel2, procesosOrdenados);
         if (procesosTodos.size() % 2 == 0) {
-            setSize(1000, 500);
+            setSize(1000, 550);
         } else {
-            setSize(1000, 501);
+            setSize(1000, 551);
         }
         jTable1.setModel(new DefaultTableModel(pSJF.convertirAMatrizParaTabla(procesosOrdenados), encabezados));
         jtPromedio.setText(pSJF.promedioDeDuracionTodos(procesosOrdenados) + "");
