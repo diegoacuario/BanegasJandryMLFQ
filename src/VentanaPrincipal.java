@@ -7,7 +7,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Banegas Jandry
+ * @author Ing Diego Romero Armijos
  */
 public class VentanaPrincipal extends javax.swing.JFrame {
 

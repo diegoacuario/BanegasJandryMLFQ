@@ -8,7 +8,7 @@ import javax.swing.border.LineBorder;
 
 /**
  *
- * @author Banegas Jandry
+ * @author Ing Diego Romero Armijos
  */
 public class ControladorMLFQ {
 

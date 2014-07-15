@@ -1,7 +1,7 @@
 
 /**
  *
- * @author Banegas Jandry
+ * @author Ing Diego Romero Armijos
  */
 public final class Proceso {
 
