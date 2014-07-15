@@ -2,3 +2,7 @@ BanegasJandryMLFQ
 =================
 
 Algoritmo Multi Level Deedback Queues
+
+Realizado por Ing. Diego Romero Armijos
+
+14/07/2014
